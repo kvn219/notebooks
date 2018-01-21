@@ -1,0 +1,78 @@
+table {
+    color: black;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-style: hidden;
+}
+
+td {
+    padding: 8px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.846;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+td,
+th {
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    padding: 8px;
+    text-align: left;
+}
+
+.dataframe thead tr:only-child th {
+    text-align: left !important;
+    background: none;
+    font-style: italic;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+table#custom-table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+thead {
+    color: white;
+    background-color: #00557F;
+}
+
+table td,
+table th {
+    border: 1px solid rgb(237, 230, 230);
+}

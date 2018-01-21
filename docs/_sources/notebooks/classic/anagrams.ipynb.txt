@@ -1,0 +1,94 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Anagrams"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2018-01-15T14:20:06.768630Z",
+     "start_time": "2018-01-15T14:20:06.754536Z"
+    }
+   },
+   "outputs": [],
+   "source": [
+    "def is_anagram(a, b):\n",
+    "    # The length of a and b need to be equal.\n",
+    "    if len(a) != len(b):\n",
+    "        return False\n",
+    "    n = len(a)\n",
+    "    check_list = list(b)\n",
+    "    for i in range(n):\n",
+    "        letter_found = False\n",
+    "        for j in range(n):\n",
+    "            if a[i] in b[j]:\n",
+    "                letter_found = True\n",
+    "                check_list[j] = None\n",
+    "                break\n",
+    "        if letter_found is False:\n",
+    "            return False\n",
+    "    return True"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Test cases"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "ExecuteTime": {
+     "end_time": "2018-01-15T14:20:07.173154Z",
+     "start_time": "2018-01-15T14:20:07.162392Z"
+    }
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "is_anagram('abcd', 'dcba')"
+   ]
+  }
+ ],
+ "metadata": {
+  "hide_input": false,
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
