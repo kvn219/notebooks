@@ -1,9 +1,7 @@
-Notebooks by Kevin Nguyen
+Sometimes ideas are just better in a notebook.
 ------------------
 .. toctree::
   :maxdepth: 1
-
-Sometimes ideas are just better in a notebook.
 
 .. raw:: html
 
