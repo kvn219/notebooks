@@ -1,4 +1,4 @@
-Sometimes ideas are just better in a notebook.
+Because some ideas are better in a notebook.
 ------------------
 .. toctree::
   :maxdepth: 1
