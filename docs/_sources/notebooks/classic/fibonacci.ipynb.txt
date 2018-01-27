@@ -21,8 +21,6 @@
     "def naive_fibonacci(n):\n",
     "    if n <= 1:\n",
     "        return n\n",
-    "    # if n is larger than 30, the calculations \n",
-    "    # become too crazy.\n",
     "    if n > 30:\n",
     "        return \"n too big\"\n",
     "    return naive_fibonacci(n - 1) + naive_fibonacci(n - 2)"

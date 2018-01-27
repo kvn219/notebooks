@@ -119,6 +119,14 @@ Because some ideas are better in a notebook.
         <td><a href="notebooks/classic/fibonacci.html">Fibonacci</a></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a href="notebooks/classic/factorial.html">Factorial</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="notebooks/classic/largest_number.html">Largest number</a></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
 

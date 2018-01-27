@@ -4,51 +4,52 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Fibonacci"
+    "# Factorial\n",
+    "\n",
+    "Take a number and determine the factorial of the number using recursion."
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 5,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2018-01-15T14:22:58.553775Z",
-     "start_time": "2018-01-15T14:22:58.547252Z"
+     "end_time": "2018-01-27T14:23:04.056014Z",
+     "start_time": "2018-01-27T14:23:04.052156Z"
     }
    },
    "outputs": [],
    "source": [
-    "def naive_fibonacci(n):\n",
-    "    if n <= 1:\n",
-    "        return n\n",
-    "    if n > 30:\n",
-    "        return \"n too big\"\n",
-    "    return naive_fibonacci(n - 1) + naive_fibonacci(n - 2)"
+    "def factorial(n):\n",
+    "    if n == 0:\n",
+    "        return 1\n",
+    "    else:\n",
+    "        return n * factorial(n - 1)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 6,
    "metadata": {
     "ExecuteTime": {
-     "end_time": "2018-01-15T14:22:58.567075Z",
-     "start_time": "2018-01-15T14:22:58.556123Z"
+     "end_time": "2018-01-27T14:23:04.398067Z",
+     "start_time": "2018-01-27T14:23:04.394316Z"
     }
    },
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "55"
+       "24"
       ]
      },
-     "execution_count": 2,
+     "execution_count": 6,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "naive_fibonacci(10)"
+    "factorial(4)"
    ]
   }
  ],
