@@ -13,11 +13,11 @@ Because some ideas are better in a notebook.
   <div class="container">
 
   <h2>Statistics</h2>
-  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <p>A collection of notebooks covering basic concepts and principles of statistics.</p>
   <table class="table-responsive table-hover table-striped" id="custom-table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Notebook</th>
         <th>Tags</th>
       </tr>
     </thead>
@@ -39,11 +39,11 @@ Because some ideas are better in a notebook.
 
 
   <h2>Machine Learning</h2>
-  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <p>A collection of notebooks covering the basic concepts and principles of machine learning.</p>
   <table class="table-responsive table-hover table-striped" id="custom-table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Notebook</th>
         <th>Tags</th>
       </tr>
     </thead>
@@ -56,11 +56,11 @@ Because some ideas are better in a notebook.
   </table>
 
   <h2>Charts</h2>
-  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <p>A collection of notebooks with common principles and good practices with creating charts.</p>
   <table class="table-responsive table-hover table-striped" id="custom-table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Notebook</th>
         <th>Tags</th>
       </tr>
     </thead>
@@ -81,11 +81,11 @@ Because some ideas are better in a notebook.
   </table>
 
   <h2>Data Structures</h2>
-  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <p>A collection of notebooks of abstract data types commonly used in computer science.</p>
   <table class="table-responsive table-hover table-striped" id="custom-table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Notebook</th>
         <th>Tags</th>
       </tr>
     </thead>
@@ -102,11 +102,11 @@ Because some ideas are better in a notebook.
   </table>
 
   <h2>Classic CS problems</h2>
-  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <p>A collection of notebooks for common computer science tasks and lessons.</p>
   <table class="table-responsive table-hover table-striped" id="custom-table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Notebook</th>
         <th>Tags</th>
       </tr>
     </thead>
@@ -131,11 +131,11 @@ Because some ideas are better in a notebook.
   </table>
 
   <h2>Cloud Tools</h2>
-  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <p>A collection of notebooks for common tasks done with popular cloud computing tools.</p>
   <table class="table-responsive table-hover table-striped" id="custom-table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Notebook</th>
         <th>Tags</th>
       </tr>
     </thead>
